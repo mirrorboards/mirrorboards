@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "explorer.compactFolders": false,
+  "css.lint.unknownAtRules": "ignore",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.gotoLocation.multipleDefinitions": "goto"
+}

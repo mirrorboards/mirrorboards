@@ -1,0 +1,24 @@
+{
+  "name": "@mirrorboards/codegen",
+  "version": "0.1.0",
+  "description": "",
+  "author": "lunacrafts",
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "dependencies": {
+    "zod": "catalog:",
+    "prettier": "catalog:"
+  },
+  "devDependencies": {
+    "vite": "catalog:",
+    "vite-plugin-dts": "catalog:",
+    "@mirrorboards/tsconfig": "workspace:*",
+    "@types/node": "catalog:",
+    "typescript": "catalog:",
+    "vite-plugin-node-polyfills": "catalog:"
+  }
+}

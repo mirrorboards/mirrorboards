@@ -1,0 +1,142 @@
+packages:
+  - 'boards/**'
+  - 'mirrorboards/**'
+  - 'mirrorboards-chain/**'
+  - 'mirrorboards-platform/**'
+  - 'mirrorboards-types/**'
+  - 'mirrorboards-hyper/**'
+  - 'reflection/**'
+  - 'reflection-layouts/**'
+
+catalog:
+  'react': 18.3.1
+  'react-dom': 18.3.1
+  'zustand': 4.5.4
+  'mitt': 3.0.1
+  'rxjs': 7.8.1
+
+  'typescript': 5.5.2
+  'axios': 1.7.2
+  'zod': 3.23.4
+  'envsafe': 2.0.3
+  '@trpc/client': next
+  '@trpc/server': next
+  '@trpc/react-query': next
+
+  '@tanstack/react-router': 1.58.3
+  '@tanstack/router-devtools': 1.58.3
+  '@tanstack/react-table': 8.11.3
+  '@tanstack/react-query': latest
+  '@tanstack/router-plugin': 1.58.4
+
+  'trpc-bun-adapter': 1.1.2
+  'prettier': 3.2.5
+  'bun': 1.1.12
+  'commander': 12.1.0
+  'winston': 3.13.1
+  'superjson': 1.13.1
+
+  'magicast': 0.3.4
+  'redis': 4.6.14
+  'tsx': 4.15.4
+  'uuid': 10.0.0
+  'yargs': 17.7.2
+
+  'eventsource': 2.0.2
+
+  '@pulumi/command': 0.11.1
+  '@pulumi/docker': 4.5.4
+  '@pulumi/kubernetes': 4.11.0
+  '@pulumi/kubernetesx': 0.1.5
+  '@pulumi/cloudflare': 5.38.0
+
+  '@pulumi/kubernetes-ingress-nginx': 0.0.10
+  '@pulumi/pulumi': 3.116.1
+  '@pulumi/random': 4.16.2
+  '@ovhcloud/pulumi-ovh': 0.48.0
+
+  '@types/node': 20.14.10
+  '@types/bun': 1.1.3
+  '@types/yargs': 17.0.32
+  '@types/react': 18.3.3
+  '@types/react-dom': 18.3.0
+  '@typescript-eslint/eslint-plugin': 7.15.0
+  '@typescript-eslint/parser': 7.15.0
+  '@types/uuid': 9.0.8
+  '@types/ws': 8.5.8
+
+  'vite': 5.4.4
+  'vite-plugin-dts': 3.9.1
+  'vite-plugin-node-polyfills': 0.22.0
+  '@vitejs/plugin-react': 4.3.1
+  'vitest': 0.34.6
+  'websocket-polyfill': 0.0.3
+
+  'eslint': 8.57.0
+  'eslint-plugin-react-hooks': 5.1.0-rc.0
+  'eslint-plugin-react-refresh': 0.4.7
+
+  'grammy': 1.17.2
+  'grammy-guard': 0.5.0
+  'grammy-inline-menu': 9.0.2
+  'grammy-middlewares': 1.0.11
+  '@grammyjs/auto-retry': 1.1.1
+  '@grammyjs/chat-members': 1.0.10
+  '@grammyjs/menu': 1.2.1
+  '@grammyjs/parse-mode': 1.7.1
+  '@grammyjs/ratelimiter': 1.2.0
+  '@grammyjs/runner': 2.0.3
+
+  '@vanilla-extract/css': 1.15.3
+  'clsx': 2.1.1
+  'jotai': 2.9.1
+  'tailwind-merge': 2.4.0
+  'tailwindcss': 3.4.7
+  'tailwindcss-animate': 1.0.7
+  'immer': 10.1.1
+  'autoprefixer': 10.4.16
+
+  'cors': 2.8.5
+  'youtube-transcript': 1.2.1
+
+  '@ygoe/msgpack': 1.0.3
+  'json-schema-to-zod': 2.4.0
+  'zod-to-json-schema': 3.23.2
+
+  'turbo': 2.0.4
+
+  'type-fest': 4.24.0
+  'remeda': 2.10.1
+
+  'upath': 2.0.1
+
+  '@eslint/js': 9.8.0
+  'globals': 15.9.0
+  'typescript-eslint': 8.0.0
+  '@changesets/cli': 2.27.7
+  'pkg-pr-new': 0.0.24
+
+  'lodash': 4.17.21
+  'yaml': 2.5.1
+  '@revolutionpopuli/revpopjs': 6.0.4
+
+  '@radix-ui/react-dialog': 1.0.5
+  '@radix-ui/react-dropdown-menu': 2.0.6
+  '@radix-ui/react-icons': 1.3.0
+  '@radix-ui/react-popover': 1.0.7
+  '@radix-ui/react-select': 2.0.0
+  '@radix-ui/react-separator': 1.0.3
+  '@radix-ui/react-slot': 1.0.2
+  '@radix-ui/react-tooltip': 1.0.7
+
+  'cmdk': 0.2.0
+  'lucide-react': 0.305.0
+  'class-variance-authority': 0.7.0
+  'framer-motion': 10.16.0
+
+  'react-json-view': 1.21.3
+  'date-fns': 2.30.0
+
+  'viem': 2.21.10
+  'wagmi': 2.12.18
+  '@wagmi/cli': 2.1.16
