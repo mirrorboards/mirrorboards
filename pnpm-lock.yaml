@@ -396,6 +396,25 @@ importers:
         specifier: ^5.0.0
         version: 5.2.2
 
+  mirrorboards-platform/mirrorboards-platform-ovh:
+    dependencies:
+      '@pulumi/kubernetes':
+        specifier: 'catalog:'
+        version: 4.11.0(encoding@0.1.13)(typescript@5.2.2)
+      '@pulumi/pulumi':
+        specifier: ^3.113.0
+        version: 3.116.1(typescript@5.2.2)
+    devDependencies:
+      '@mirrorboards/pulumi-platform':
+        specifier: workspace:*
+        version: link:../../mirrorboards/mirrorboards-pulumi-platform
+      '@types/node':
+        specifier: ^18
+        version: 18.15.13
+      typescript:
+        specifier: ^5.0.0
+        version: 5.2.2
+
   mirrorboards-types/mirrorboards-types-benthos:
     dependencies:
       '@mirrorboards-types/benthos-json':
@@ -3875,9 +3894,6 @@ packages:
 
   '@types/node@12.20.55':
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
-
-  '@types/node@14.18.63':
-    resolution: {integrity: sha512-fAtCfv4jJg+ExtXhvCkCqUKZ+4ok/JQk01qDKhL5BDDoS3AxKXhV5/MAVUZyQnSEd2GT92fkgZl0pz0Q0AzcIQ==}
 
   '@types/node@18.15.13':
     resolution: {integrity: sha512-N+0kuo9KgrUQ1Sn/ifDXsvg0TTleP7rIy4zOBGECxAljqvqfqpTfzx0Q1NUedOixRMBfe2Whhb056a42cWs26Q==}
@@ -10851,12 +10867,10 @@ snapshots:
 
   '@types/node-fetch@2.6.11':
     dependencies:
-      '@types/node': 14.18.63
+      '@types/node': 20.14.10
       form-data: 4.0.0
 
   '@types/node@12.20.55': {}
-
-  '@types/node@14.18.63': {}
 
   '@types/node@18.15.13': {}
 
