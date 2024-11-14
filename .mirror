@@ -5,9 +5,12 @@
 .vscode
 bin
 
+mirrorboards-blockchain/mirrorboards-blockchain-rqrx-wallet
+
 mirrorboards/mirrorboards-codegen
 mirrorboards/mirrorboards-tsconfig
 mirrorboards/mirrorboards-namespace
+
 
 .editorconfig
 .gitignore
