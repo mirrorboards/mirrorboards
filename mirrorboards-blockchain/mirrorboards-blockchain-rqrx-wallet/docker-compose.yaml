@@ -1,0 +1,6 @@
+name: rqrx_wallet
+services:
+  rqrx_wallet:
+    container_name: rqrx_wallet
+    image: ghcr.io/r-squared-project/r-squared-core:1.0.0
+    network_mode: host
