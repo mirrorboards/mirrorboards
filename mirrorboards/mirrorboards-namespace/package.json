@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "description": "",
   "author": "lunacrafts",
+  "repository": "github:mirrorboards/mirrorboards.git",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
