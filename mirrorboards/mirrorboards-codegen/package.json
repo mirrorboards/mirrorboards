@@ -11,15 +11,15 @@
     "dev": "vite build --watch"
   },
   "dependencies": {
-    "zod": "catalog:",
-    "prettier": "catalog:"
+    "zod": "3.23.4",
+    "prettier": "3.2.5"
   },
   "devDependencies": {
-    "vite": "catalog:",
-    "vite-plugin-dts": "catalog:",
+    "vite": "5.4.4",
+    "vite-plugin-dts": "3.9.1",
     "@mirrorboards/tsconfig": "workspace:*",
-    "@types/node": "catalog:",
-    "typescript": "catalog:",
-    "vite-plugin-node-polyfills": "catalog:"
+    "@types/node": "20.14.10",
+    "typescript": "5.5.2",
+    "vite-plugin-node-polyfills": "0.22.0"
   }
 }

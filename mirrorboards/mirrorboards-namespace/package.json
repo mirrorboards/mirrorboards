@@ -24,8 +24,8 @@
   },
   "devDependencies": {
     "@mirrorboards/tsconfig": "workspace:*",
-    "typescript": "catalog:",
-    "vite": "catalog:",
-    "vite-plugin-dts": "catalog:"
+    "typescript": "5.5.2",
+    "vite": "5.4.4",
+    "vite-plugin-dts": "3.9.1"
   }
 }
