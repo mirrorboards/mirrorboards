@@ -1,0 +1,38 @@
+{
+  "name": "mirrorboards",
+  "version": "0.2.1",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mirrorboards/mirrorboards.git"
+  },
+  "keywords": [],
+  "scripts": {
+    "memoboards": "turbo dev --concurrency 100 --filter=@memoboards/*",
+    "build": "turbo build",
+    "build:packages": "turbo build --filter=@mirrorboards/* --filter=@mirrorboards-types/*",
+    "dev": "turbo dev --concurrency 100",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "changeset": "changeset",
+    "ninja": "ninja sort-pnpm && ninja awesome --src ./.journal --dist ./.awesome",
+    "switch:dev": "turbo run switch:dev",
+    "switch:prod": "turbo run switch:prod",
+    "ci:version": "changeset version",
+    "ci:publish": "pnpm publish -r",
+    "ci:tag": "changeset tag"
+  },
+  "devDependencies": {
+    "@changesets/cli": "catalog:",
+    "lerna": "catalog:",
+    "prettier": "catalog:",
+    "turbo": "catalog:"
+  },
+  "packageManager": "pnpm@9.5.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@mirrorboards/ninja": "workspace:*"
+  }
+}

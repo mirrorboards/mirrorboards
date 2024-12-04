@@ -1,0 +1,28 @@
+{
+  "name": "@mirrorboards/ninja",
+  "version": "0.3.0",
+  "description": "",
+  "private": false,
+  "author": "lunacrafts",
+  "repository": "github:mirrorboards/mirrorboards.git",
+  "type": "module",
+  "bin": {
+    "ninja": "bin/index.mjs"
+  },
+  "dependencies": {
+    "@mirrorboards/codegen": "workspace:*",
+    "@pnpm/exportable-manifest": "catalog:",
+    "@pnpm/read-project-manifest": "catalog:",
+    "commander": "catalog:",
+    "glob": "catalog:",
+    "yaml": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@mirrorboards/tsconfig": "workspace:*",
+    "@types/node": "catalog:",
+    "esbuild": "catalog:",
+    "tsx": "catalog:",
+    "typescript": "catalog:"
+  }
+}

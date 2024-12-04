@@ -1,0 +1,6 @@
+{
+  "extends": "@mirrorboards/tsconfig/package/tsconfig",
+  "include": [
+    "src/**/*"
+  ],
+}

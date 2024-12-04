@@ -1,0 +1,47 @@
+{
+  "name": "@mirrorboards-types/envelopes",
+  "version": "0.3.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "main": "./src/index.ts",
+  "private": false,
+  "__SWITCH_MANIFEST__": {
+    "dev": {
+      "main": "./src/index.ts"
+    },
+    "prod": {
+      "main": "./dist/index.cjs",
+      "module": "./dist/index.js",
+      "types": "./dist/index.d.ts",
+      "exports": {
+        "require": {
+          "types": "./dist/index.d.ts",
+          "default": "./dist/index.cjs"
+        },
+        "import": {
+          "types": "./dist/index.d.ts",
+          "default": "./dist/index.js"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "switch:prod": "ninja switch-manifest --template prod && ninja sort-package-json",
+    "switch:dev": "ninja switch-manifest --template dev && ninja sort-package-json"
+  },
+  "dependencies": {
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@mirrorboards/tsconfig": "workspace:*",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vite-plugin-dts": "catalog:",
+    "@mirrorboards/ninja": "workspace:*"
+  },
+  "keywords": []
+}
