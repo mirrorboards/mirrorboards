@@ -72,6 +72,9 @@ catalogs:
     commander:
       specifier: 12.1.0
       version: 12.1.0
+    destr:
+      specifier: 2.0.3
+      version: 2.0.3
     envsafe:
       specifier: 2.0.3
       version: 2.0.3
@@ -824,6 +827,34 @@ importers:
       vite-plugin-node-polyfills:
         specifier: 'catalog:'
         version: 0.22.0(rollup@4.27.4)(vite@5.4.8(@types/node@22.9.3))
+
+  mirrorboards/mirrorboards-streamwaves-runtime:
+    dependencies:
+      '@mirrorboards/msgpack-zod':
+        specifier: workspace:*
+        version: link:../mirrorboards-msgpack-zod
+      '@mirrorboards/stdin':
+        specifier: workspace:*
+        version: link:../mirrorboards-stdin
+      '@mirrorboards/streamwaves':
+        specifier: workspace:*
+        version: link:../mirrorboards-streamwaves
+      destr:
+        specifier: 'catalog:'
+        version: 2.0.3
+      zod:
+        specifier: 'catalog:'
+        version: 3.23.8
+    devDependencies:
+      '@mirrorboards/tsconfig':
+        specifier: workspace:*
+        version: link:../mirrorboards-tsconfig
+      '@types/bun':
+        specifier: 'catalog:'
+        version: 1.1.14
+      typescript:
+        specifier: 'catalog:'
+        version: 5.7.2
 
   mirrorboards/mirrorboards-super-functions:
     devDependencies:
@@ -2920,6 +2951,9 @@ packages:
 
   des.js@1.1.0:
     resolution: {integrity: sha512-r17GxjhUCjSRy8aiJpr8/UadFIzMzJGexI3Nmz4ADi9LYSFx4gTBp80+NaX/YsXWWLhpZ7v/v/ubEc/bCNfKwg==}
+
+  destr@2.0.3:
+    resolution: {integrity: sha512-2N3BOUU4gYMpTP24s5rF5iP7BDr7uNTCs4ozw3kf/eKfvWSIu93GEBi5m427YoyJoeOzQ5smuu4nNAPGb8idSQ==}
 
   detect-indent@5.0.0:
     resolution: {integrity: sha512-rlpvsxUtM0PQvy9iZe640/IWwWYyBsTApREbA1pHOpmOUIl9MkP/U4z7vTtg4Oaojvqhxt7sdufnT0EzGaR31g==}
@@ -7568,6 +7602,8 @@ snapshots:
     dependencies:
       inherits: 2.0.4
       minimalistic-assert: 1.0.1
+
+  destr@2.0.3: {}
 
   detect-indent@5.0.0: {}
 
