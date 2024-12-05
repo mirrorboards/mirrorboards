@@ -1,5 +1,12 @@
 # @mirrorboards/pulumi
 
+## 0.3.1
+
+### Patch Changes
+
+- @mirrorboards/namespace@0.3.1
+- @mirrorboards-types/envelopes@0.3.1
+
 ## 0.3.0
 
 ### Minor Changes
