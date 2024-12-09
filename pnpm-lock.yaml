@@ -69,6 +69,9 @@ catalogs:
     axios:
       specifier: 1.7.8
       version: 1.7.8
+    clsx:
+      specifier: 2.1.1
+      version: 2.1.1
     commander:
       specifier: 12.1.0
       version: 12.1.0
@@ -102,6 +105,9 @@ catalogs:
     remeda:
       specifier: 2.17.4
       version: 2.17.4
+    tailwind-merge:
+      specifier: 2.5.5
+      version: 2.5.5
     trpc-bun-adapter:
       specifier: 1.2.0
       version: 1.2.0
@@ -864,6 +870,34 @@ importers:
       '@types/node':
         specifier: 'catalog:'
         version: 22.9.3
+      typescript:
+        specifier: 'catalog:'
+        version: 5.7.2
+
+  reflection/reflection-core:
+    dependencies:
+      clsx:
+        specifier: 'catalog:'
+        version: 2.1.1
+      react:
+        specifier: 'catalog:'
+        version: 18.3.1
+      react-dom:
+        specifier: 'catalog:'
+        version: 18.3.1(react@18.3.1)
+      tailwind-merge:
+        specifier: 'catalog:'
+        version: 2.5.5
+    devDependencies:
+      '@mirrorboards/tsconfig':
+        specifier: workspace:*
+        version: link:../../mirrorboards/mirrorboards-tsconfig
+      '@types/react':
+        specifier: 'catalog:'
+        version: 18.3.3
+      '@types/react-dom':
+        specifier: 'catalog:'
+        version: 18.3.0
       typescript:
         specifier: 'catalog:'
         version: 5.7.2
@@ -4825,6 +4859,9 @@ packages:
   supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+
+  tailwind-merge@2.5.5:
+    resolution: {integrity: sha512-0LXunzzAZzo0tEPxV3I297ffKZPlKDrjj7NXphC8V5ak9yHC5zRmxnOe2m/Rd/7ivsOMJe3JZ2JVocoDdQTRBA==}
 
   tar-stream@2.2.0:
     resolution: {integrity: sha512-ujeqbceABgwMZxEJnk2HDY2DlnUZ+9oEcb1KzTVfYHio0UE6dG71n60d8D2I4qNvleWrrXpmjpt7vZeF1LnMZQ==}
@@ -9748,6 +9785,8 @@ snapshots:
       has-flag: 4.0.0
 
   supports-preserve-symlinks-flag@1.0.0: {}
+
+  tailwind-merge@2.5.5: {}
 
   tar-stream@2.2.0:
     dependencies:

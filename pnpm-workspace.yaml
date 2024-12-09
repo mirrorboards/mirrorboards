@@ -10,7 +10,7 @@ packages:
 catalog:
   axios: 1.7.8
   bun: 1.1.37
-  "@changesets/cli": 2.27.7
+  '@changesets/cli': 2.27.7
   commander: 12.1.0
   destr: 2.0.3
   envsafe: 2.0.3
@@ -18,43 +18,45 @@ catalog:
   glob: 11.0.0
   json-schema-to-zod: 2.4.0
   lerna: 8.1.9
-  "@pnpm/exportable-manifest": 1000.0.0
-  "@pnpm/read-project-manifest": 1000.0.0
+  '@pnpm/exportable-manifest': 1000.0.0
+  '@pnpm/read-project-manifest': 1000.0.0
   prettier: 3.2.5
-  "@pulumi/cloudflare": 5.43.1
-  "@pulumi/command": 1.0.1
-  "@pulumi/docker": 4.5.7
-  "@pulumi/kubernetes": 4.18.3
-  "@pulumi/pulumi": 3.113.0
+  '@pulumi/cloudflare': 5.43.1
+  '@pulumi/command': 1.0.1
+  '@pulumi/docker': 4.5.7
+  '@pulumi/kubernetes': 4.18.3
+  '@pulumi/pulumi': 3.113.0
   react: 18.3.1
   react-dom: 18.3.1
   remeda: 2.17.4
-  "@tanstack/react-query": 5.61.4
-  "@tanstack/react-router": 1.82.8
-  "@tanstack/router-devtools": 1.82.8
-  "@tanstack/router-plugin": 1.81.9
+  '@tanstack/react-query': 5.61.4
+  '@tanstack/react-router': 1.82.8
+  '@tanstack/router-devtools': 1.82.8
+  '@tanstack/router-plugin': 1.81.9
   trpc-bun-adapter: 1.2.0
-  "@trpc/client": 11.0.0-rc.645
-  "@trpc/react-query": 11.0.0-rc.645
-  "@trpc/server": 11.0.0-rc.645
+  '@trpc/client': 11.0.0-rc.645
+  '@trpc/react-query': 11.0.0-rc.645
+  '@trpc/server': 11.0.0-rc.645
   tsx: 4.19.2
   turbo: 2.3.1
   type-fest: 4.29.1
-  "@types/bun": 1.1.14
-  "@types/node": 22.9.3
-  "@types/react": 18.3.3
-  "@types/react-dom": 18.3.0
-  "@types/yargs": 17.0.32
+  '@types/bun': 1.1.14
+  '@types/node': 22.9.3
+  '@types/react': 18.3.3
+  '@types/react-dom': 18.3.0
+  '@types/yargs': 17.0.32
   typescript: 5.7.2
   upath: 2.0.1
   vite: 5.4.8
   vite-plugin-dts: 4.3.0
   vite-plugin-node-polyfills: 0.22.0
-  "@vitejs/plugin-react": 4.3.2
+  '@vitejs/plugin-react': 4.3.2
   yaml: 2.6.1
   yargs: 17.7.2
-  "@ygoe/msgpack": 1.0.3
+  '@ygoe/msgpack': 1.0.3
   youtube-transcript: 1.2.1
   zod: 3.23.8
   zod-to-json-schema: 3.23.2
   zustand: 5.0.1
+  clsx: 2.1.1
+  tailwind-merge: 2.5.5
