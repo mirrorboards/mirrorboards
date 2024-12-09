@@ -110,6 +110,10 @@ export class Streamwave extends pulumi.ComponentResource {
                       subPath: 'benthos.yaml',
                       readOnly: true,
                     },
+                    {
+                      name: 'mirrorboards-volume',
+                      mountPath: '/mirrorboards',
+                    },
                   ],
                 },
               ],
@@ -118,6 +122,12 @@ export class Streamwave extends pulumi.ComponentResource {
                   name: 'config',
                   configMap: {
                     name: namespace.get('config-map'),
+                  },
+                },
+                {
+                  name: 'mirrorboards-volume',
+                  hostPath: {
+                    path: '/mirrorboards',
                   },
                 },
               ],
