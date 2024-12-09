@@ -10,9 +10,10 @@
   "scripts": {
     "memoboards": "turbo dev --concurrency 100 --filter=@memoboards/*",
     "build": "turbo build",
-    "build:packages": "turbo build --filter=@mirrorboards/* --filter=@mirrorboards-types/*",
+    "build:packages": "turbo buildtsc",
     "dev": "turbo dev --concurrency 100",
     "lint": "turbo lint",
+    "check-types": "pnpm   --filter='@mirrorboards/*' --filter='@mirrorboards-types/*' exec \"$(pwd)/.bin/check_ts_errors.sh\"",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "changeset": "changeset",
     "ninja": "ninja sort-pnpm && ninja awesome --src ./.journal --dist ./.awesome",
@@ -26,7 +27,8 @@
     "@changesets/cli": "catalog:",
     "lerna": "catalog:",
     "prettier": "catalog:",
-    "turbo": "catalog:"
+    "turbo": "catalog:",
+    "typescript": "^5.7.2"
   },
   "packageManager": "pnpm@9.5.0",
   "engines": {
