@@ -10,7 +10,7 @@
   "scripts": {
     "memoboards": "turbo dev --concurrency 100 --filter=@memoboards/*",
     "build": "turbo build",
-    "build:packages": "turbo buildtsc",
+    "build:packages": "turbo build",
     "dev": "turbo dev --concurrency 100",
     "lint": "turbo lint",
     "check-types": "pnpm   --filter='@mirrorboards/*' --filter='@mirrorboards-types/*' exec \"$(pwd)/.bin/check_ts_errors.sh\"",
