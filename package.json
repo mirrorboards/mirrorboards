@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@changesets/cli": "catalog:",
+    "@types/bun": "catalog:",
     "lerna": "catalog:",
     "prettier": "catalog:",
     "turbo": "catalog:"
