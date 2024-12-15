@@ -156,9 +156,6 @@ importers:
       '@changesets/cli':
         specifier: 'catalog:'
         version: 2.27.7
-      '@types/bun':
-        specifier: 'catalog:'
-        version: 1.1.14
       lerna:
         specifier: 'catalog:'
         version: 8.1.9(encoding@0.1.13)
@@ -473,55 +470,6 @@ importers:
       vite-plugin-dts:
         specifier: 'catalog:'
         version: 4.3.0(@types/node@22.9.3)(rollup@4.27.4)(typescript@5.7.2)(vite@5.4.8(@types/node@22.9.3))
-
-  mirrorboards/mirrorboards-bun:
-    dependencies:
-      '@mirrorboards-types/benthos':
-        specifier: workspace:*
-        version: link:../../mirrorboards-types/mirrorboards-types-benthos
-      '@mirrorboards-types/envelopes':
-        specifier: workspace:*
-        version: link:../../mirrorboards-types/mirrorboards-types-envelopes
-      '@mirrorboards/benthos':
-        specifier: workspace:*
-        version: link:../mirrorboards-benthos
-      '@mirrorboards/hyper-benthos':
-        specifier: workspace:*
-        version: link:../mirrorboards-hyper-benthos
-      '@mirrorboards/msgpack-zod':
-        specifier: workspace:*
-        version: link:../mirrorboards-msgpack-zod
-      '@mirrorboards/stdin':
-        specifier: workspace:*
-        version: link:../mirrorboards-stdin
-      '@mirrorboards/super-types':
-        specifier: workspace:*
-        version: link:../mirrorboards-super-types
-      remeda:
-        specifier: 'catalog:'
-        version: 2.17.4
-      type-fest:
-        specifier: 'catalog:'
-        version: 4.29.1
-      zod:
-        specifier: 'catalog:'
-        version: 3.23.8
-    devDependencies:
-      '@mirrorboards/ninja':
-        specifier: workspace:*
-        version: link:../mirrorboards-ninja
-      '@mirrorboards/tsconfig':
-        specifier: workspace:*
-        version: link:../mirrorboards-tsconfig
-      '@types/bun':
-        specifier: 'catalog:'
-        version: 1.1.14
-      '@types/node':
-        specifier: 'catalog:'
-        version: 22.9.3
-      typescript:
-        specifier: 'catalog:'
-        version: 5.7.2
 
   mirrorboards/mirrorboards-codegen:
     dependencies:
