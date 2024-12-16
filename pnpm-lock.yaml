@@ -708,6 +708,9 @@ importers:
 
   mirrorboards/mirrorboards-runner:
     dependencies:
+      '@mirrorboards/streamwaves':
+        specifier: workspace:*
+        version: link:../mirrorboards-streamwaves
       '@mirrorboards/tsconfig':
         specifier: workspace:*
         version: link:../mirrorboards-tsconfig
@@ -778,6 +781,12 @@ importers:
       '@mirrorboards/super-types':
         specifier: workspace:*
         version: link:../mirrorboards-super-types
+      bun:
+        specifier: 'catalog:'
+        version: 1.1.38
+      bun-plugin-dts:
+        specifier: 'catalog:'
+        version: 0.3.0
       remeda:
         specifier: 'catalog:'
         version: 2.17.4
@@ -794,6 +803,9 @@ importers:
       '@mirrorboards/tsconfig':
         specifier: workspace:*
         version: link:../mirrorboards-tsconfig
+      '@types/bun':
+        specifier: 'catalog:'
+        version: 1.1.14
       '@types/node':
         specifier: 'catalog:'
         version: 22.9.3
