@@ -211,12 +211,12 @@ importers:
       '@mirrorboards/pulumi':
         specifier: workspace:*
         version: link:../../../mirrorboards/mirrorboards-pulumi
-      '@mirrorboards/runner':
-        specifier: workspace:*
-        version: link:../../../mirrorboards/mirrorboards-runner
       '@mirrorboards/streamwaves':
         specifier: workspace:*
         version: link:../../../mirrorboards/mirrorboards-streamwaves
+      '@mirrorboards/streamwaves-oven':
+        specifier: workspace:*
+        version: link:../../../mirrorboards/mirrorboards-streamwaves-oven
       '@mirrorboards/super-regex':
         specifier: workspace:*
         version: link:../../../mirrorboards/mirrorboards-super-regex
@@ -706,34 +706,6 @@ importers:
         specifier: 'catalog:'
         version: 5.7.2
 
-  mirrorboards/mirrorboards-runner:
-    dependencies:
-      '@mirrorboards/streamwaves':
-        specifier: workspace:*
-        version: link:../mirrorboards-streamwaves
-      '@mirrorboards/tsconfig':
-        specifier: workspace:*
-        version: link:../mirrorboards-tsconfig
-      '@types/bun':
-        specifier: 'catalog:'
-        version: 1.1.14
-      bun:
-        specifier: 'catalog:'
-        version: 1.1.38
-      bun-plugin-dts:
-        specifier: 'catalog:'
-        version: 0.3.0
-    devDependencies:
-      '@mirrorboards/ninja':
-        specifier: workspace:*
-        version: link:../mirrorboards-ninja
-      '@types/node':
-        specifier: 'catalog:'
-        version: 22.9.3
-      typescript:
-        specifier: 'catalog:'
-        version: 5.7.2
-
   mirrorboards/mirrorboards-stdin:
     devDependencies:
       '@mirrorboards/ninja':
@@ -772,12 +744,12 @@ importers:
       '@mirrorboards/msgpack-zod':
         specifier: workspace:*
         version: link:../mirrorboards-msgpack-zod
-      '@mirrorboards/runner':
-        specifier: workspace:*
-        version: link:../mirrorboards-runner
       '@mirrorboards/stdin':
         specifier: workspace:*
         version: link:../mirrorboards-stdin
+      '@mirrorboards/streamwaves-oven':
+        specifier: workspace:*
+        version: link:../mirrorboards-streamwaves-oven
       '@mirrorboards/super-types':
         specifier: workspace:*
         version: link:../mirrorboards-super-types
@@ -824,6 +796,34 @@ importers:
       vite-plugin-node-polyfills:
         specifier: 'catalog:'
         version: 0.22.0(rollup@4.27.4)(vite@5.4.8(@types/node@22.9.3))
+
+  mirrorboards/mirrorboards-streamwaves-oven:
+    dependencies:
+      '@mirrorboards/streamwaves':
+        specifier: workspace:*
+        version: link:../mirrorboards-streamwaves
+      '@mirrorboards/tsconfig':
+        specifier: workspace:*
+        version: link:../mirrorboards-tsconfig
+      '@types/bun':
+        specifier: 'catalog:'
+        version: 1.1.14
+      bun:
+        specifier: 'catalog:'
+        version: 1.1.38
+      bun-plugin-dts:
+        specifier: 'catalog:'
+        version: 0.3.0
+    devDependencies:
+      '@mirrorboards/ninja':
+        specifier: workspace:*
+        version: link:../mirrorboards-ninja
+      '@types/node':
+        specifier: 'catalog:'
+        version: 22.9.3
+      typescript:
+        specifier: 'catalog:'
+        version: 5.7.2
 
   mirrorboards/mirrorboards-streamwaves-runtime:
     dependencies:
@@ -2716,6 +2716,7 @@ packages:
 
   bun@1.1.38:
     resolution: {integrity: sha512-cr+UDFiEasyw0kKEbbD7kDewrI2vTo17JssVVjzBv/eNskeL2wikJ+4RNgUfoRqgthCjDZux7r6ELGgIGq6aWw==}
+    cpu: [arm64, x64]
     os: [darwin, linux, win32]
     hasBin: true
 
