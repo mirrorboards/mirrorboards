@@ -102,15 +102,12 @@ catalogs:
     lerna:
       specifier: 8.1.9
       version: 8.1.9
-<<<<<<< HEAD
-    mitt:
-      specifier: 3.0.1
-      version: 3.0.1
-=======
     memfs:
       specifier: ^4.15.0
       version: 4.15.0
->>>>>>> 6765835a69aeaf674a1294c87351e6c84ee67949
+    mitt:
+      specifier: 3.0.1
+      version: 3.0.1
     prettier:
       specifier: 3.2.5
       version: 3.2.5
