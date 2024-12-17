@@ -842,9 +842,6 @@ importers:
 
   mirrorboards/mirrorboards-streamwaves-oven:
     dependencies:
-      '@mirrorboards/streamwaves':
-        specifier: workspace:*
-        version: link:../mirrorboards-streamwaves
       '@mirrorboards/tsconfig':
         specifier: workspace:*
         version: link:../mirrorboards-tsconfig
@@ -2762,7 +2759,6 @@ packages:
 
   bun@1.1.38:
     resolution: {integrity: sha512-cr+UDFiEasyw0kKEbbD7kDewrI2vTo17JssVVjzBv/eNskeL2wikJ+4RNgUfoRqgthCjDZux7r6ELGgIGq6aWw==}
-    cpu: [arm64, x64]
     os: [darwin, linux, win32]
     hasBin: true
 
