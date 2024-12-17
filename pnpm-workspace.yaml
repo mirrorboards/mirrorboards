@@ -9,7 +9,7 @@ packages:
   - reflection-layouts/**
 catalog:
   axios: 1.7.8
-  bun: 1.1.37
+  bun: 1.1.38
   '@changesets/cli': 2.27.7
   commander: 12.1.0
   destr: 2.0.3
@@ -64,3 +64,5 @@ catalog:
   mitt: 3.0.1
   rxjs: 7.8.1
   ws: 8.18.0
+  bun-plugin-dts: ^0.3.0
+  memfs: ^4.15.0
