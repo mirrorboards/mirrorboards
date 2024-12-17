@@ -60,6 +60,9 @@ catalogs:
     '@types/react-dom':
       specifier: 18.3.0
       version: 18.3.0
+    '@types/ws':
+      specifier: 8.5.12
+      version: 8.5.12
     '@vitejs/plugin-react':
       specifier: 4.3.2
       version: 4.3.2
@@ -93,6 +96,9 @@ catalogs:
     lerna:
       specifier: 8.1.9
       version: 8.1.9
+    mitt:
+      specifier: 3.0.1
+      version: 3.0.1
     prettier:
       specifier: 3.2.5
       version: 3.2.5
@@ -105,6 +111,9 @@ catalogs:
     remeda:
       specifier: 2.17.4
       version: 2.17.4
+    rxjs:
+      specifier: 7.8.1
+      version: 7.8.1
     tailwind-merge:
       specifier: 2.5.5
       version: 2.5.5
@@ -132,6 +141,9 @@ catalogs:
     vite-plugin-node-polyfills:
       specifier: 0.22.0
       version: 0.22.0
+    ws:
+      specifier: 8.18.0
+      version: 8.18.0
     yaml:
       specifier: 2.6.1
       version: 2.6.1
@@ -523,6 +535,37 @@ importers:
       vite-plugin-node-polyfills:
         specifier: 'catalog:'
         version: 0.22.0(rollup@4.27.4)(vite@5.4.8(@types/node@22.9.3))
+
+  mirrorboards/mirrorboards-graphene:
+    dependencies:
+      '@mirrorboards/super-types':
+        specifier: workspace:*
+        version: link:../mirrorboards-super-types
+      '@trpc/server':
+        specifier: 'catalog:'
+        version: 11.0.0-rc.645(typescript@5.7.2)
+      mitt:
+        specifier: 'catalog:'
+        version: 3.0.1
+      rxjs:
+        specifier: 'catalog:'
+        version: 7.8.1
+      ws:
+        specifier: 'catalog:'
+        version: 8.18.0
+      zod:
+        specifier: 'catalog:'
+        version: 3.23.8
+    devDependencies:
+      '@mirrorboards/tsconfig':
+        specifier: workspace:*
+        version: link:../mirrorboards-tsconfig
+      '@types/ws':
+        specifier: 'catalog:'
+        version: 8.5.12
+      typescript:
+        specifier: 'catalog:'
+        version: 5.7.2
 
   mirrorboards/mirrorboards-hyper-benthos:
     dependencies:
@@ -2323,6 +2366,9 @@ packages:
   '@types/tmp@0.2.6':
     resolution: {integrity: sha512-chhaNf2oKHlRkDGt+tiKE2Z5aJ6qalm7Z9rlLdBwmOiAAf09YQvvoLXjWK4HWPF1xU/fqvMgfNfpVoBscA/tKA==}
 
+  '@types/ws@8.5.12':
+    resolution: {integrity: sha512-3tPRkv1EtkDpzlgyKyI8pGsGZAGPEaXeu0DOj5DI25Ja91bdAYddYHbADRYVrZMRbfW+1l5YwXVDKohDJNQxkQ==}
+
   '@types/ws@8.5.13':
     resolution: {integrity: sha512-osM/gWBTPKgHV8XkTunnegTRIsvF6owmf5w+JtAfOw472dptdm0dlGv4xCt6GwQRcC2XVOvvRE/0bAoQcL2QkA==}
 
@@ -3944,6 +3990,9 @@ packages:
     resolution: {integrity: sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==}
     engines: {node: '>= 8'}
 
+  mitt@3.0.1:
+    resolution: {integrity: sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==}
+
   mkdirp@1.0.4:
     resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
     engines: {node: '>=10'}
@@ -5225,6 +5274,18 @@ packages:
   write-yaml-file@5.0.0:
     resolution: {integrity: sha512-FdNA4RyH1L43TlvGG8qOMIfcEczwA5ij+zLXUy3Z83CjxhLvcV7/Q/8pk22wnCgYw7PJhtK+7lhO+qqyT4NdvQ==}
     engines: {node: '>=16.14'}
+
+  ws@8.18.0:
+    resolution: {integrity: sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
 
   xtend@4.0.2:
     resolution: {integrity: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==}
@@ -6897,6 +6958,10 @@ snapshots:
   '@types/tmp@0.0.33': {}
 
   '@types/tmp@0.2.6': {}
+
+  '@types/ws@8.5.12':
+    dependencies:
+      '@types/node': 22.9.3
 
   '@types/ws@8.5.13':
     dependencies:
@@ -8761,6 +8826,8 @@ snapshots:
       minipass: 3.3.6
       yallist: 4.0.0
 
+  mitt@3.0.1: {}
+
   mkdirp@1.0.4: {}
 
   mlly@1.7.3:
@@ -10122,6 +10189,8 @@ snapshots:
     dependencies:
       js-yaml: 4.1.0
       write-file-atomic: 5.0.1
+
+  ws@8.18.0: {}
 
   xtend@4.0.2: {}
 
