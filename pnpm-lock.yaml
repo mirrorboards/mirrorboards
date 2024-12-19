@@ -281,6 +281,9 @@ importers:
 
   applications/mirrorboards-shell/mirrorboards-shell:
     dependencies:
+      '@hypeboards/hypeboards':
+        specifier: workspace:*
+        version: link:../../../applications-boards/hypeboards
       '@mirrorboards-shell/api':
         specifier: workspace:*
         version: link:../mirrorboards-shell-api
@@ -308,6 +311,9 @@ importers:
       react-dom:
         specifier: 'catalog:'
         version: 18.3.1(react@18.3.1)
+      zod:
+        specifier: 'catalog:'
+        version: 3.23.8
     devDependencies:
       '@tanstack/router-plugin':
         specifier: 'catalog:'
@@ -2997,7 +3003,6 @@ packages:
 
   bun@1.1.38:
     resolution: {integrity: sha512-cr+UDFiEasyw0kKEbbD7kDewrI2vTo17JssVVjzBv/eNskeL2wikJ+4RNgUfoRqgthCjDZux7r6ELGgIGq6aWw==}
-    cpu: [arm64, x64]
     os: [darwin, linux, win32]
     hasBin: true
 
