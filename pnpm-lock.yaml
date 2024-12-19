@@ -198,6 +198,9 @@ importers:
       '@hypeboards/hypeboards-api':
         specifier: workspace:*
         version: link:../hypeboards-api
+      '@reflection-layout/boards':
+        specifier: workspace:*
+        version: link:../../reflection-layouts/reflection-layouts-boards
       '@tanstack/react-query':
         specifier: 'catalog:'
         version: 5.61.4(react@18.3.1)
@@ -287,6 +290,9 @@ importers:
       '@mirrorboards-shell/api':
         specifier: workspace:*
         version: link:../mirrorboards-shell-api
+      '@reflection-layout/boards':
+        specifier: workspace:*
+        version: link:../../../reflection-layouts/reflection-layouts-boards
       '@tanstack/react-query':
         specifier: 'catalog:'
         version: 5.61.4(react@18.3.1)
