@@ -1,0 +1,64 @@
+[[repositories]]
+  url = "git@github.com:mirrorboards/mirrorboards-vscode.git"
+  path = "."
+  name = ".vscode"
+
+[[repositories]]
+  url = "git@github.com:mirrorboards/mirrorboards-ts.git"
+  path = "mirrorboards"
+  name = "mirrorboards"
+
+[[repositories]]
+  url = "git@github.com:mirrorboards/mirrorboards-go.git"
+  path = "mirrorboards"
+  name = "mirrorboards-go"
+
+[[repositories]]
+  url = "git@github.com:mirrorboards/platform.git"
+  path = "mirrorboards-platform"
+  name = "platform"
+
+[[repositories]]
+  url = "git@github.com:mirrorboards/mirrorboards-fish-functions.git"
+  path = "mirrorboards-utils"
+  name = "mirrorboards-fish-functions"
+
+[[repositories]]
+  url = "git@github.com:mirrorboards/mirrorboards-install.git"
+  path = "mirrorboards-utils"
+  name = "mirrorboards-install"
+
+[[repositories]]
+  url = "git@github.com:mirrorboards/pay2vault-platform.git"
+  path = "."
+  name = "pay2vault-platform"
+
+[[repositories]]
+  url = "git@github.com:pay2vault/pay2vault-mobile.git"
+  path = "pay2vault"
+  name = "pay2vault-mobile"
+
+[[repositories]]
+  url = "git@github.com:pay2vault/pay2vault-web.git"
+  path = "pay2vault"
+  name = "pay2vault-web"
+
+[[repositories]]
+  url = "git@github.com:pay2vault/pay2vault-api.git"
+  path = "pay2vault"
+  name = "pay2vault-api"
+
+[[repositories]]
+  url = "git@github.com:mirrorboards-exchange/mirrorboards-exchange-operations.git"
+  path = "exchange"
+  name = "exchange-operations"
+
+[[repositories]]
+  url = "git@github.com:mirrorboards-exchange/mirrorboards-exchange-platform.git"
+  path = "."
+  name = "exchange-platform"
+
+[[repositories]]
+  url = "git@github.com:mirrorboards/mirrorboards.git"
+  path = "mirrorboards"
+  name = "mirrorboards"
