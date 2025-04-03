@@ -9,13 +9,13 @@ path = "."
 url = "git@github.com:mirrorboards/mirrorboards-bin.git"
 
 [[repositories]]
-name = "mirrorboards"
-path = "mirrorboards"
+name = "mirrorboards-ts"
+path = "."
 url = "git@github.com:mirrorboards/mirrorboards-ts.git"
 
 [[repositories]]
 name = "mirrorboards-go"
-path = "mirrorboards"
+path = "."
 url = "git@github.com:mirrorboards/mirrorboards-go.git"
 
 [[repositories]]
@@ -65,7 +65,7 @@ url = "git@github.com:mirrorboards-exchange/mirrorboards-exchange-platform.git"
 
 [[repositories]]
 name = "mirrorboards"
-path = "mirrorboards"
+path = "mirrorboards-utils"
 url = "git@github.com:mirrorboards/mirrorboards.git"
 
 [[repositories]]
