@@ -24,6 +24,11 @@ path = "platform"
 url = "git@github.com:mirrorboards/platform.git"
 
 [[repositories]]
+name = "platform-xauth-net"
+path = "platform"
+url = "git@github.com:xauth-net/xauth-net-platform.git"
+
+[[repositories]]
 name = "mirrorboards-fish-functions"
 path = "mirrorboards-utils"
 url = "git@github.com:mirrorboards/mirrorboards-fish-functions.git"
@@ -77,3 +82,18 @@ url = "git@github.com:mirrorboards/mctl.git"
 name = "platform-axxxxxxm"
 path = "platform"
 url = "git@github.com:axxxxxxm-org/axxxxxxm-platform.git"
+
+[[repositories]]
+name = "mirrorboards-blockchain"
+path = "."
+url = "git@github.com:mirrorboards/mirrorboards-blockchain.git"
+
+[[repositories]]
+name = ".notes"
+path = "."
+url = "git@github.com:mirrorboards/mirrorboards-notes.git"
+
+[[repositories]]
+name = ".legacy"
+path = "."
+url = "git@github.com:mirrorboards/mirrorboards-legacy.git"
