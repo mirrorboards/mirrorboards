@@ -10,12 +10,12 @@ url = "git@github.com:mirrorboards/mirrorboards-bin.git"
 
 [[repositories]]
 name = "mirrorboards-ts"
-path = "."
+path = "mirrorboards"
 url = "git@github.com:mirrorboards/mirrorboards-ts.git"
 
 [[repositories]]
 name = "mirrorboards-go"
-path = "."
+path = "mirrorboards"
 url = "git@github.com:mirrorboards/mirrorboards-go.git"
 
 [[repositories]]
@@ -30,12 +30,12 @@ url = "git@github.com:xauth-net/xauth-net-platform.git"
 
 [[repositories]]
 name = "mirrorboards-fish-functions"
-path = "mirrorboards-utils"
+path = "mirrorboards/mirrorboards-utils"
 url = "git@github.com:mirrorboards/mirrorboards-fish-functions.git"
 
 [[repositories]]
 name = "mirrorboards-install"
-path = "mirrorboards-utils"
+path = "mirrorboards/mirrorboards-utils"
 url = "git@github.com:mirrorboards/mirrorboards-install.git"
 
 [[repositories]]
@@ -70,23 +70,18 @@ url = "git@github.com:mirrorboards-exchange/mirrorboards-exchange-platform.git"
 
 [[repositories]]
 name = "mirrorboards"
-path = "mirrorboards-utils"
+path = "mirrorboards/mirrorboards-utils"
 url = "git@github.com:mirrorboards/mirrorboards.git"
 
 [[repositories]]
 name = "mirrorboards-mctl"
-path = "mirrorboards-utils"
+path = "mirrorboards/mirrorboards-utils"
 url = "git@github.com:mirrorboards/mctl.git"
 
 [[repositories]]
 name = "platform-axxxxxxm"
 path = "platform"
 url = "git@github.com:axxxxxxm-org/axxxxxxm-platform.git"
-
-[[repositories]]
-name = "mirrorboards-blockchain"
-path = "."
-url = "git@github.com:mirrorboards/mirrorboards-blockchain.git"
 
 [[repositories]]
 name = ".notes"
