@@ -4,6 +4,11 @@ path = "."
 url = "git@github.com:mirrorboards/mirrorboards-vscode.git"
 
 [[repositories]]
+name = "bin"
+path = "."
+url = "git@github.com:mirrorboards/mirrorboards-bin.git"
+
+[[repositories]]
 name = "mirrorboards"
 path = "mirrorboards"
 url = "git@github.com:mirrorboards/mirrorboards-ts.git"
@@ -66,4 +71,4 @@ url = "git@github.com:mirrorboards/mirrorboards.git"
 [[repositories]]
 name = "mirrorboards-mctl"
 path = "mirrorboards-utils"
-url = "git@github.com:mirrorboards/mirrorboards-mctl.git"
+url = "git@github.com:mirrorboards/mctl.git"
