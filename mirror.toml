@@ -77,3 +77,18 @@ url = "git@github.com:mirrorboards/mctl.git"
 name = "platform-axxxxxxm"
 path = "platform"
 url = "git@github.com:axxxxxxm-org/axxxxxxm-platform.git"
+
+[[repositories]]
+name = "mirrorboards-blockchain"
+path = "."
+url = "git@github.com:mirrorboards/mirrorboards-blockchain.git"
+
+[[repositories]]
+name = "mirrorboards-notes"
+path = "notes"
+url = "git@github.com:mirrorboards/mirrorboards-notes.git"
+
+[[repositories]]
+name = ".legacy"
+path = "."
+url = "git@github.com:mirrorboards/mirrorboards-legacy.git"
