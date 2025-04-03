@@ -19,8 +19,8 @@ path = "mirrorboards"
 url = "git@github.com:mirrorboards/mirrorboards-go.git"
 
 [[repositories]]
-name = "mirrorboards-platform"
-path = "."
+name = "platform-mirrorboards"
+path = "platform"
 url = "git@github.com:mirrorboards/platform.git"
 
 [[repositories]]
@@ -34,8 +34,8 @@ path = "mirrorboards-utils"
 url = "git@github.com:mirrorboards/mirrorboards-install.git"
 
 [[repositories]]
-name = "pay2vault-platform"
-path = "."
+name = "platform-pay2vault"
+path = "platform"
 url = "git@github.com:mirrorboards/pay2vault-platform.git"
 
 [[repositories]]
@@ -59,8 +59,8 @@ path = "exchange"
 url = "git@github.com:mirrorboards-exchange/mirrorboards-exchange-operations.git"
 
 [[repositories]]
-name = "exchange-platform"
-path = "."
+name = "platform-exchange"
+path = "platform"
 url = "git@github.com:mirrorboards-exchange/mirrorboards-exchange-platform.git"
 
 [[repositories]]
@@ -72,3 +72,8 @@ url = "git@github.com:mirrorboards/mirrorboards.git"
 name = "mirrorboards-mctl"
 path = "mirrorboards-utils"
 url = "git@github.com:mirrorboards/mctl.git"
+
+[[repositories]]
+name = "platform-axxxxxxm"
+path = "platform"
+url = "git@github.com:axxxxxxm-org/axxxxxxm-platform.git"
