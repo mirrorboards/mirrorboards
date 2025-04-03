@@ -69,6 +69,11 @@ path = "platform"
 url = "git@github.com:mirrorboards-exchange/mirrorboards-exchange-platform.git"
 
 [[repositories]]
+name = "genesis"
+path = "exchange"
+url = "git@github.com:mirrorboards-exchange/genesis.git"
+
+[[repositories]]
 name = "mirrorboards"
 path = "mirrorboards/mirrorboards-utils"
 url = "git@github.com:mirrorboards/mirrorboards.git"
@@ -92,3 +97,8 @@ url = "git@github.com:mirrorboards/mirrorboards-notes.git"
 name = ".legacy"
 path = "."
 url = "git@github.com:mirrorboards/mirrorboards-legacy.git"
+
+[[repositories]]
+name = "genesis"
+path = "axxxxxxm"
+url = "https://github.com/axxxxxxm-org/genesis"
