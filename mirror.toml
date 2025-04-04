@@ -112,3 +112,23 @@ url = "git@github.com:2-fly-4-ai/V0-system-prompt.git"
 name = "mirrorboards-code"
 path = "mirrorboards"
 url = "git@github.com:mirrorboards/mirrorboards-code.git"
+
+[[repositories]]
+name = "pay2vault-genesis"
+path = "pay2vault"
+url = "git@github.com:pay2vault/pay2vault-genesis.git"
+
+[[repositories]]
+name = "mirrorboards-graphene-cli"
+path = "mirrorboards-graphene"
+url = "git@github.com:mirrorboards/mirrorboards-graphene-cli.git"
+
+[[repositories]]
+name = "mirrorboards-graphene"
+path = "mirrorboards-graphene"
+url = "git@github.com:mirrorboards/mirrorboards-graphene.git"
+
+[[repositories]]
+name = "platform-scanboards"
+path = "platform"
+url = "git@github.com:scanboards/scanboards-platform.git"
