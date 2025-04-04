@@ -102,3 +102,13 @@ url = "git@github.com:mirrorboards/mirrorboards-legacy.git"
 name = "genesis"
 path = "axxxxxxm"
 url = "https://github.com/axxxxxxm-org/genesis"
+
+[[repositories]]
+name = "V0-system-prompt"
+path = "system-prompts"
+url = "git@github.com:2-fly-4-ai/V0-system-prompt.git"
+
+[[repositories]]
+name = "mirrorboards-code"
+path = "mirrorboards"
+url = "git@github.com:mirrorboards/mirrorboards-code.git"
